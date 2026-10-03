@@ -1,0 +1,2820 @@
+[
+  {
+    "image_id": "beeed9e7-d279d8ee.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/beeed9e7-d279d8ee.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      }
+    ]
+  },
+  {
+    "image_id": "b4201bd2-75c1998d.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/b4201bd2-75c1998d.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      }
+    ]
+  },
+  {
+    "image_id": "b9b53753-91a5d5f8.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/b9b53753-91a5d5f8.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "b79d7247-6750fc90.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/b79d7247-6750fc90.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      }
+    ]
+  },
+  {
+    "image_id": "c30f959a-bd87aa16.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/c30f959a-bd87aa16.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "c3a5542d-132f75f3.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/c3a5542d-132f75f3.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      }
+    ]
+  },
+  {
+    "image_id": "c38e77f6-edc3c34b.jpg",
+    "dataset": "bdd",
+    "weather_condition": "rainy",
+    "image_path": "images/bdd/c38e77f6-edc3c34b.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "6410ded7-e1a1132d.jpg",
+    "dataset": "bdd",
+    "weather_condition": "foggy",
+    "image_path": "images/bdd/6410ded7-e1a1132d.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "57116a0f-a87f10c7.jpg",
+    "dataset": "bdd",
+    "weather_condition": "foggy",
+    "image_path": "images/bdd/57116a0f-a87f10c7.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      }
+    ]
+  },
+  {
+    "image_id": "6f47b2ae-1e3ba433.jpg",
+    "dataset": "bdd",
+    "weather_condition": "foggy",
+    "image_path": "images/bdd/6f47b2ae-1e3ba433.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      }
+    ]
+  },
+  {
+    "image_id": "b6642e30-93accfbe.jpg",
+    "dataset": "bdd",
+    "weather_condition": "snowy",
+    "image_path": "images/bdd/b6642e30-93accfbe.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "b3f3c908-baffb699.jpg",
+    "dataset": "bdd",
+    "weather_condition": "clear",
+    "image_path": "images/bdd/b3f3c908-baffb699.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      }
+    ]
+  },
+  {
+    "image_id": "c4eb5462-c917fefd.jpg",
+    "dataset": "bdd",
+    "weather_condition": "clear",
+    "image_path": "images/bdd/c4eb5462-c917fefd.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v2",
+        "question": "Is it dark or visibility-reduced enough that headlights are necessary here?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_ADV_03_v3",
+        "question": "Could a driver safely navigate this scene without turning on their headlights?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_03"
+      },
+      {
+        "q_id": "AW_A_03_v2",
+        "question": "Are windscreen wipers needed given the weather shown in this image?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_03_v3",
+        "question": "Is the weather dry enough that wipers would not be needed?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06_v2",
+        "question": "Could light reflections off the wet road surface cause visual impairment for the driver?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_H_06_v3",
+        "question": "Is there no risk of glare from headlights or reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01_v2",
+        "question": "Can the type of road be identified from this image despite the weather conditions?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_01_v3",
+        "question": "Are weather conditions severe enough to make road type identification impossible?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02_v2",
+        "question": "Are there any traffic signs or road markings that convey useful information here?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_02_v3",
+        "question": "Are road signs and markings too obscured to provide speed or direction guidance?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_A_02_v2",
+        "question": "Do the road conditions shown here warrant driving below the posted speed limit?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_02_v3",
+        "question": "Are conditions safe enough to drive at the normal speed limit here?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_04_v2",
+        "question": "Would it be safe to pass the vehicle ahead given current road and visibility conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_A_04_v3",
+        "question": "Is overtaking the vehicle ahead unsafe in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_P_02_v2",
+        "question": "Are the traffic light colours in this scene legible to the driver?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_P_02_v3",
+        "question": "Are traffic light colours too difficult to distinguish in these conditions?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "AW_P_02"
+      }
+    ]
+  },
+  {
+    "image_id": "b3f3c908-baffb699_foggy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "foggy",
+    "image_path": "images/counterfactual/b3f3c908-baffb699_foggy.jpg",
+    "is_augmented": true,
+    "source_image_id": "b3f3c908-baffb699.jpg",
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b3f3c908-baffb699_rainy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "rainy",
+    "image_path": "images/counterfactual/b3f3c908-baffb699_rainy.jpg",
+    "is_augmented": true,
+    "source_image_id": "b3f3c908-baffb699.jpg",
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b3f3c908-baffb699_snowy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "snowy",
+    "image_path": "images/counterfactual/b3f3c908-baffb699_snowy.jpg",
+    "is_augmented": true,
+    "source_image_id": "b3f3c908-baffb699.jpg",
+    "questions": [
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c4eb5462-c917fefd_foggy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "foggy",
+    "image_path": "images/counterfactual/c4eb5462-c917fefd_foggy.jpg",
+    "is_augmented": true,
+    "source_image_id": "c4eb5462-c917fefd.jpg",
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c4eb5462-c917fefd_rainy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "rainy",
+    "image_path": "images/counterfactual/c4eb5462-c917fefd_rainy.jpg",
+    "is_augmented": true,
+    "source_image_id": "c4eb5462-c917fefd.jpg",
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c4eb5462-c917fefd_snowy.jpg",
+    "dataset": "bdd_cf",
+    "weather_condition": "snowy",
+    "image_path": "images/counterfactual/c4eb5462-c917fefd_snowy.jpg",
+    "is_augmented": true,
+    "source_image_id": "c4eb5462-c917fefd.jpg",
+    "questions": [
+      {
+        "q_id": "AW_P_02",
+        "question": "Is it possible to read the colour of the traffic lights in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_P_02"
+      },
+      {
+        "q_id": "AW_A_02",
+        "question": "Should the driver slow down below the speed limit given current conditions?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_02"
+      },
+      {
+        "q_id": "AW_A_03",
+        "question": "Should the driver use windscreen wipers right now?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_03"
+      },
+      {
+        "q_id": "AW_A_04",
+        "question": "Is it safe to attempt an overtake of the vehicle ahead in these conditions?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_A_04"
+      },
+      {
+        "q_id": "AW_H_06",
+        "question": "Is there a risk of glare from headlights or wet road reflections in this scene?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_H_06"
+      },
+      {
+        "q_id": "AW_ADV_01",
+        "question": "Despite the weather, can you still identify what type of road this is?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_01"
+      },
+      {
+        "q_id": "AW_ADV_02",
+        "question": "Are any road signs or markings visible that convey speed or direction information?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_02"
+      },
+      {
+        "q_id": "AW_ADV_03",
+        "question": "Would a driver need to use headlights to safely navigate this scene?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_counterfactual",
+        "variation_type": "counterfactual",
+        "source_q_id": "AW_ADV_03"
+      }
+    ]
+  }
+]

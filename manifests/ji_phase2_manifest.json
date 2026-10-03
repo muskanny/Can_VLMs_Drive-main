@@ -1,0 +1,3724 @@
+[
+  {
+    "image_id": "b4aa2f44-023fb7df.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b4aa2f44-023fb7df.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c24e7c72-be9fff6f.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/c24e7c72-be9fff6f.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b84507e4-e4553a8d.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b84507e4-e4553a8d.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "bfb3e0e3-6767a552.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/bfb3e0e3-6767a552.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c0677163-c63c7c95.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/c0677163-c63c7c95.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c76fbaa1-07ee965c.jpg",
+    "dataset": "bdd",
+    "junction_type": "pedestrian_heavy",
+    "image_path": "images/bdd/c76fbaa1-07ee965c.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c2f5e5c4-35640746.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/c2f5e5c4-35640746.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "bc9cce42-b4577861.jpg",
+    "dataset": "bdd",
+    "junction_type": "multi_signal",
+    "image_path": "images/bdd/bc9cce42-b4577861.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b2a5baf7-58519386.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b2a5baf7-58519386.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c37360b7-7dab5705.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/c37360b7-7dab5705.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b39fe3cd-f0d534c0.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b39fe3cd-f0d534c0.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b4927f8e-fb16ed87.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b4927f8e-fb16ed87.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "c45b2e04-5689b375.jpg",
+    "dataset": "bdd",
+    "junction_type": "multi_signal",
+    "image_path": "images/bdd/c45b2e04-5689b375.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "b6658d33-fe2d18f8.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/b6658d33-fe2d18f8.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "bfa23f26-588ee4a8.jpg",
+    "dataset": "bdd",
+    "junction_type": "signalised",
+    "image_path": "images/bdd/bfa23f26-588ee4a8.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "JN_P_01",
+        "question": "Are there two or more traffic lights visible in this scene?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01",
+        "question": "Should the ego vehicle stop before entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04",
+        "question": "Should the driver be prepared to brake suddenly at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01",
+        "question": "Is there a risk of a pedestrian stepping into the path of the ego vehicle?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02",
+        "question": "Could a large vehicle such as a bus or truck obstruct the driver's sightline at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01",
+        "question": "Is the traffic light currently displaying a green signal that permits the ego vehicle to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02",
+        "question": "Is the traffic light currently displaying red or yellow, requiring the ego vehicle to stop or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03",
+        "question": "Is there a vehicle currently occupying the centre of the intersection ahead?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_mode_a",
+        "variation_type": "original",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_P_01_v2",
+        "question": "Can the driver see a traffic signal controlling this intersection?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_P_01_v3",
+        "question": "Is there at least one traffic light that is visible to the ego vehicle?",
+        "q_type": "perception",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_P_01"
+      },
+      {
+        "q_id": "JN_A_01_v2",
+        "question": "Should the driver reduce speed when approaching this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_01_v3",
+        "question": "Is slowing down the appropriate action for a driver entering this intersection?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_01"
+      },
+      {
+        "q_id": "JN_A_04_v2",
+        "question": "Should the driver use the horn to alert others when passing through this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_A_04_v3",
+        "question": "Is sounding the horn an appropriate action at this junction?",
+        "q_type": "action",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_A_04"
+      },
+      {
+        "q_id": "JN_H_01_v2",
+        "question": "Is there a risk of collision with a pedestrian at this junction?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_01_v3",
+        "question": "Could a pedestrian stepping into the road pose a hazard here?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_01"
+      },
+      {
+        "q_id": "JN_H_02_v2",
+        "question": "Does the presence of other vehicles at this junction create a collision risk?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_H_02_v3",
+        "question": "Is there a danger of hitting another vehicle when navigating this intersection?",
+        "q_type": "hazard",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_H_02"
+      },
+      {
+        "q_id": "JN_ADV_01_v2",
+        "question": "Does the current traffic signal allow the ego vehicle to move through the intersection?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_01_v3",
+        "question": "Based on the signal state, is the ego vehicle permitted to proceed?",
+        "q_type": "adversarial",
+        "gt": "yes",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_01"
+      },
+      {
+        "q_id": "JN_ADV_02_v2",
+        "question": "Does the traffic signal currently indicate that vehicles must stop or wait?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_02_v3",
+        "question": "Is the current signal state one that requires the driver to halt or yield?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_02"
+      },
+      {
+        "q_id": "JN_ADV_03_v2",
+        "question": "Can the driver identify the correct turning lane from the markings visible at this junction?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "paraphrase",
+        "source_q_id": "JN_ADV_03"
+      },
+      {
+        "q_id": "JN_ADV_03_v3",
+        "question": "Are the lane markings here distinct enough to guide a turning manoeuvre?",
+        "q_type": "adversarial",
+        "gt": "no",
+        "use_for": "phase2_linguistic",
+        "variation_type": "negated",
+        "source_q_id": "JN_ADV_03"
+      }
+    ]
+  },
+  {
+    "image_id": "ae374f827d2d45c7a4ed054b5aab7370_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/ae374f827d2d45c7a4ed054b5aab7370_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "a75864536d2a40928791d3a5b793172b_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/a75864536d2a40928791d3a5b793172b_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "b0cf75edd3f74328833b7bbc7b8f9c79_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/b0cf75edd3f74328833b7bbc7b8f9c79_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "3bacb342e9474eb6886835ad0def454f_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/3bacb342e9474eb6886835ad0def454f_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "43ed7234ea704e7b8e6fd524775473b3_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/43ed7234ea704e7b8e6fd524775473b3_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "40fb4a2c2a7c419784ae5413738d6b10_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/40fb4a2c2a7c419784ae5413738d6b10_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "feb4c57435dc46cb80ff1907a787e046_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/feb4c57435dc46cb80ff1907a787e046_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  },
+  {
+    "image_id": "a9f2ac5c34274074bf37954bd51b4edd_CAM_FRONT.jpg",
+    "dataset": "nuscenes",
+    "junction_type": "nuscenes",
+    "image_path": "images/nuscenes/a9f2ac5c34274074bf37954bd51b4edd_CAM_FRONT.jpg",
+    "is_augmented": false,
+    "source_image_id": null,
+    "questions": [
+      {
+        "q_id": "NS_CF_01",
+        "question": "Is there a pedestrian visible in the front view of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_01"
+      },
+      {
+        "q_id": "NS_CF_02",
+        "question": "Is there a pedestrian on the left side of the road ahead?",
+        "q_type": "spatial_reasoning",
+        "gt": "yes",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_02"
+      },
+      {
+        "q_id": "NS_CF_04",
+        "question": "Should the driver yield to a pedestrian currently in or near the path of the ego vehicle?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_04"
+      },
+      {
+        "q_id": "NS_CF_06",
+        "question": "Is there a vehicle approaching from the left side of the intersection?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_06"
+      },
+      {
+        "q_id": "NS_CF_08",
+        "question": "Is the road directly ahead of the ego vehicle clear of any pedestrians?",
+        "q_type": "spatial_reasoning",
+        "gt": "no",
+        "use_for": "phase2_nuscenes",
+        "variation_type": "original",
+        "source_q_id": "NS_CF_08"
+      }
+    ]
+  }
+]

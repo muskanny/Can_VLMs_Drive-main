@@ -1,0 +1,93 @@
+import json
+import os
+import torch
+import time
+from PIL import Image
+from diffusers import StableDiffusionInstructPix2PixPipeline
+
+# ── paths ──────────────────────────────────────────────────────────────────
+SELECTED_PATH   = '/home2/muskan.singh/results/aw_selected.json'
+OUTPUT_DIR      = '/home2/muskan.singh/val/images_augmented/'
+OUTPUT_MANIFEST = '/home2/muskan.singh/results/aw_augmented_manifest.json'
+HF_CACHE        = '/home2/muskan.singh/hf_cache'
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ── weather instructions ───────────────────────────────────────────────────
+WEATHER_CONFIGS = {
+    'rainy': {
+        'prompt': 'make this a rainy scene with rain falling, wet road surface, rain on windshield, overcast sky',
+        'negative_prompt': 'sunny, dry, clear sky, snow, fog',
+        'image_guidance_scale': 1.8,
+        'guidance_scale': 8.0,
+    },
+    'foggy': {
+        'prompt': 'make this a foggy morning scene, low visibility, misty atmosphere, grey hazy sky, muted colours',
+        'negative_prompt': 'clear sky, sunny, bright, sharp visibility, rain, snow, dramatic, cinematic',
+        'image_guidance_scale': 1.6,
+        'guidance_scale': 7.5,
+    },
+    'snowy': {
+        'prompt': 'make this a snowy winter scene with snow falling, snow on road, snow on cars, overcast winter sky',
+        'negative_prompt': 'sunny, dry, summer, rain, fog, clear sky',
+        'image_guidance_scale': 1.8,
+        'guidance_scale': 8.0,
+    },
+}
+
+# ── load model ─────────────────────────────────────────────────────────────
+print("Loading InstructPix2Pix pipeline...")
+os.environ['HF_HOME'] = HF_CACHE
+pipe = StableDiffusionInstructPix2PixPipeline.from_pretrained(
+    'timbrooks/instruct-pix2pix',
+    torch_dtype=torch.float16,
+    safety_checker=None,
+    cache_dir='/home2/muskan.singh/hf_cache',
+)
+pipe = pipe.to('cuda')
+pipe.enable_attention_slicing()
+print("Model loaded.")
+
+# ── load selected images ───────────────────────────────────────────────────
+with open(SELECTED_PATH) as f:
+    selected = json.load(f)
+
+clear_images = selected['clear_for_augmentation'][:5]  # TEST MODE
+print(f"Augmenting {len(clear_images)} clear images × 3 weather types = {len(clear_images)*3} total")
+
+# ── resume support ─────────────────────────────────────────────────────────
+done = set()
+if os.path.exists(OUTPUT_MANIFEST):
+    with open(OUTPUT_MANIFEST) as f:
+        existing = json.load(f)
+    done = {(e['source_image_id'], e['aug_weather']) for e in existing}
+    augmented_entries = existing
+    print(f"Resuming — {len(done)} already done")
+else:
+    augmented_entries = []
+
+# ── augmentation loop ──────────────────────────────────────────────────────
+for i, item in enumerate(clear_images):
+    src_path = item['image_path']
+    src_id   = item['image_id']
+
+    try:
+        src_img = Image.open(src_path).convert('RGB').resize((768, 432))
+    except Exception as e:
+        print(f"  SKIP {src_id} — could not open: {e}")
+        continue
+
+    for weather, cfg in WEATHER_CONFIGS.items():
+        if (src_id, weather) in done:
+            continue
+
+        out_filename = f"aug_{weather}_{src_id}"
+        out_path = os.path.join(OUTPUT_DIR, out_filename)
+
+        t0 = time.time()
+        try:
+            result = pipe(
+                prompt=cfg['prompt'],
+                negative_prompt=cfg['negative_prompt'],
+                image=src_img,
+                imag
