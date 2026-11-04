@@ -5,10 +5,10 @@
 <!-- TODO: replace with the final author list exactly as on the camera-ready paper -->
 Authors : Muskan Singh, Shankar Gangishetty
 
-<!-- TODO: fill in real links once available; remove any that do not apply -->
+<!-- TODO: fill in real links once available; remove any that do not apply 
 - [Paper (arXiv)](https://arxiv.org/abs/XXXX.XXXXX)
 - [Project Webpage](https://<your-project-page>.github.io/)
-- [HF Dataset](https://huggingface.co/datasets/<org>/<dataset>)
+- [HF Dataset](https://huggingface.co/datasets/<org>/<dataset>)-->
 
 A diagnostic evaluation benchmark that probes whether vision–language models (VLMs)
 make driving decisions from **visual evidence** or from **language priors, answer
